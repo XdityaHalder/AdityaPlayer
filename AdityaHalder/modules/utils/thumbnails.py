@@ -1,4 +1,4 @@
-# Powered By @AdityaHalder
+# Powered By @LoCaL_kInG_01
 
 import os
 import re
@@ -65,7 +65,7 @@ async def gen_thumb(videoid):
         images = random.choice(themes)
         border = random.choice(colors)
         image1 = Image.open(f"cache/thumb{videoid}.png")
-        image2 = Image.open(f"AdityaHalder/resource/{images}.png")
+        image2 = Image.open(f"king/resource/{images}.png")
         image3 = changeImageSize(1280, 720, image1)
         image4 = changeImageSize(1280, 720, image2)
         image5 = image3.convert("RGBA")
@@ -78,7 +78,7 @@ async def gen_thumb(videoid):
         draw.text((190, 555), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
         draw.text((190, 595), f"Duration: {duration}", (255, 255, 255), font=font)
         draw.text((190, 635), f"Views: {views}", (255, 255, 255), font=font)
-        draw.text((190, 675), f"Powered By: Aditya Halder (@AdityaHalder)", (255, 255, 255), font=font)
+        draw.text((190, 675), f"Powered By: king (@LoCaL_kInG_01)", (255, 255, 255), font=font)
         try:
             os.remove(f"cache/thumb{videoid}.png")
             os.remove(f"cache/temp.png")
