@@ -13,7 +13,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from adityaMusic.core.userbot import assistants
+            from AdiryaHalder.modules.core.app import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -29,9 +29,8 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001190342892
-                                and chat_id != -1001733534088
-                                and chat_id != -1001443281821
+                                and chat_id != -1001447267782
+                                and chat_id != -1001730082698
                             ):
                                 if left == 20:
                                     continue
