@@ -3,6 +3,11 @@
 <p align="center"><a href="https://t.me/adityahalder"><img src="https://te.legra.ph/file/c6e1041c6c9a12913f57a.png"></a></p>
 
 
+### 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 𝐇𝐞𝐫𝐨𝐤𝐮
+
+[![Deploy To Heroku](https://te.legra.ph/file/8d507dd508370dc936652.png)](https://dashboard.heroku.com/new-app?template=https://github.com/XdityaHalder/AdityaPlayer)
+
+
 ### 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐘𝐨𝐮𝐫 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐅𝐫𝐨𝐦 𝐇𝐞𝐫𝐞
 
 [![GenerateString](https://te.legra.ph/file/8d507dd508370dc936652.png)](https://replit.com/@AdityaHalder/StringSession)
