@@ -22,6 +22,10 @@
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
             "required": true
         },
+        "STRING_SESSION": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎 𝑺𝒕𝒓𝒊𝒏𝒈 𝑺𝒔𝒆𝒔𝒔𝒊𝒐𝒏 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝑰𝑫",
+            "required": true
+        },
         "DURATION_LIMIT": {
             "description": "𝑺𝒐𝒏𝒈 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 𝑳𝒊𝒎𝒊𝒕 (𝑴𝒊𝒏𝒖𝒕𝒆𝒔)",
             "required": true,
