@@ -6,6 +6,7 @@ ffmpeg-python
 gitpython
 hachoir
 heroku3
+httpx==0.20.0
 lyricsgenius
 motor
 pillow
@@ -18,7 +19,7 @@ pyyaml==5.3.1
 requests
 spotipy
 tgcrypto
-git+https://github.com/adityaxserver/downloader
+git+https://github.com/KaalOS/downloader
 git+https://github.com/Kaal-xD/kaal-search
 git+https://github.com/Kaal-xD/kaal-speed-test
 git+https://github.com/Kaal-xD/kaal-search-python
