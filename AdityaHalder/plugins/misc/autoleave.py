@@ -13,7 +13,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from AdiryaHalder.modules.core.app import assistants
+            from AdityaHalder.modules.core.app import assistants
 
             for num in assistants:
                 client = await get_client(num)
