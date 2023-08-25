@@ -6,4 +6,4 @@ RUN apt-get update -y && apt-get upgrade -y \
 COPY . /aditya/
 WORKDIR /aditya/
 RUN pip3 install --no-cache-dir --upgrade --requirement Installer
-CMD python3 -m II_RAJPUT_SHIV_SINGH_II
+CMD python3 -m AdityaHalder
